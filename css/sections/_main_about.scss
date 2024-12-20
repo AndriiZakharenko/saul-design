@@ -1,34 +1,27 @@
-//========================= MAIN_ABOUT =========================//
-
 .about {
     padding-top: rem(116);
     padding-bottom: rem(116);
 
-    // .about__container
     &__container {
         display: flex;
     }
 
-    // .about__content
     &__content {
         flex: 1 1 auto;
         padding-right: rem(20);
     }
 
-    // .about__title
     &__title {
         &:not(:last-child) {
             margin-bottom: rem(20);
         }
     }
 
-    // .about__text
     &__text {
         max-width: rem(390);
         line-height: 1.5;
     }
 
-    // .about__image
     &__image {
         flex: 0 0 53.2%;
         text-align: center;
@@ -39,9 +32,6 @@
     }
 }
 
-//========================= MAIN_ABOUT (BREAKPOINTS) =========================//
-
-// MAX
 @media (max-width: $pc) {
     .about {
         padding-top: rem(70);
@@ -64,18 +54,4 @@
     .about__text{
         max-width: none;
     }
-}
-@media (max-width: $mobileLarge) {
-}
-@media (max-width: $mobileSmall) {
-}
-
-// MIN
-@media (min-width: $pc) {
-}
-@media (min-width: $tablet) {
-}
-@media (min-width: $mobileLarge) {
-}
-@media (min-width: $mobileSmall) {
 }

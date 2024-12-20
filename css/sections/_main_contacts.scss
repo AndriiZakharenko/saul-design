@@ -1,10 +1,7 @@
-//========================= MAIN_CONTACTS =========================//
-
 .contacts {
     padding-top: rem(155);
     padding-bottom: rem(155);
 
-    // .contacts__container
     &__container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -12,25 +9,12 @@
         align-items: start;
     }
 
-    // .contacts__content
-    &__content {
-    }
-
-    // .contacts__title
-    &__title {
-    }
-
-    // .contacts__image
     &__image {
         text-align: center;
 
         img {
             max-width: 100%;
         }
-    }
-
-    // .contacts__form
-    &__form {
     }
 }
 
@@ -39,7 +23,6 @@
     grid-template-columns: repeat(2, 1fr);
     gap: rem(24);
 
-    // .form__item
     &__item {
         &:nth-child(3) {
             grid-column: span 2;
@@ -50,7 +33,6 @@
         }
     }
 
-    // .form__label
     &__label {
         display: block;
         color: $white0;
@@ -58,7 +40,6 @@
         font-weight: $Bold;
     }
 
-    // .form__input
     &__input {
         background-color: $grey4;
         border-radius: rem(16);
@@ -79,7 +60,6 @@
         }
     }
 
-    // .form__button
     &__button {
         span {
             display: inline-block;
@@ -95,9 +75,6 @@ textarea.form__input {
     padding: rem(24);
 }
 
-//========================= MAIN_CONTACTS (BREAKPOINTS) =========================//
-
-// MAX
 @media (max-width: $pc) {
     .contacts{
         padding-top: rem(70);
@@ -128,18 +105,4 @@ textarea.form__input {
     .form__button{
         width: 100%;
     }
-}
-@media (max-width: $mobileLarge) {
-}
-@media (max-width: $mobileSmall) {
-}
-
-// MIN
-@media (min-width: $pc) {
-}
-@media (min-width: $tablet) {
-}
-@media (min-width: $mobileLarge) {
-}
-@media (min-width: $mobileSmall) {
 }

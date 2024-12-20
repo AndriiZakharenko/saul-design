@@ -1,24 +1,19 @@
-//========================= MAIN_MAIN =========================//
-
 .main {
     padding-top: rem(93);
     padding-bottom: rem(98);
     border-bottom: rem(1) solid $white2;
 
-    // .main__container
     &__container {
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
     }
 
-    // .main__content
     &__content {
         flex: 1 1 auto;
         padding-right: rem(20);
     }
 
-    // .main__title
     &__title {
         font-weight: $Bold;
         font-size: rem(96);
@@ -35,18 +30,15 @@
         }
     }
 
-    // .main__buttons
     &__buttons {
         display: flex;
         align-items: center;
         gap: rem(24);
     }
 
-    // .main__hire-button
     &__hire-button {
     }
 
-    // .main__cv-button
     &__cv-button {
         span {
             display: inline-block;
@@ -55,7 +47,6 @@
         }
     }
 
-    // .main__image
     &__image {
         flex: 0 0 42.8%;
         text-align: center;
@@ -66,9 +57,6 @@
     }
 }
 
-//========================= MAIN_MAIN (BREAKPOINTS) =========================//
-
-// MAX
 @media (max-width: $pc) {
     .main {
         padding-top: rem(50);
@@ -91,8 +79,7 @@
         justify-content: center;
     }
 }
-@media (max-width: $tablet) {
-}
+
 @media (max-width: $mobileLarge) {
     .main {
         padding-top: rem(35);
@@ -115,14 +102,4 @@
         flex-direction: column;
         align-items: stretch;
     }
-}
-
-// MIN
-@media (min-width: $pc) {
-}
-@media (min-width: $tablet) {
-}
-@media (min-width: $mobileLarge) {
-}
-@media (min-width: $mobileSmall) {
 }

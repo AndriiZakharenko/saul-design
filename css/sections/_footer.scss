@@ -1,15 +1,8 @@
-//========================= FOOTER =========================//
-
 .footer {
     padding-top: rem(50);
     padding-bottom: rem(50);
     border-top: rem(1) solid $white2;
 
-    // .footer__container
-    &__container {
-    }
-
-    // .footer__menu
     &__menu {
 
         &:not(:last-child){
@@ -17,13 +10,10 @@
         }
     }
 
-    // .footer__social
-    &__social {
-    }
 }
 .menu-footer {
 
-    // .menu-footer__list
+
     &__list {
         display: flex;
         column-gap: rem(48);
@@ -33,11 +23,6 @@
         justify-content: center;
     }
 
-    // .menu-footer__item
-    &__item {
-    }
-
-    // .menu-footer__link
     &__link {
         line-height: 1.5;
         padding-left: rem(34);
@@ -46,35 +31,16 @@
             text-decoration: underline;
         }
 
-        // .menu-footer__link_home
         &_home {
             background: url('/img/footer/menu/01.svg') left no-repeat;
         }
 
-        // .menu-footer__link_about
         &_about {
             background: url('/img/footer/menu/02.svg') left no-repeat;
         }
 
-        // .menu-footer__link_contact
         &_contact {
             background: url('/img/footer/menu/03.svg') left no-repeat;
         }
     }
 }
-
-
-
-//========================= FOOTER (BREAKPOINTS) =========================//
-
-// MAX
-@media (max-width:$pc){}
-@media (max-width:$tablet){}
-@media (max-width:$mobileLarge){}
-@media (max-width:$mobileSmall){}
-
-// MIN
-@media (min-width:$pc){}
-@media (min-width:$tablet){}
-@media (min-width:$mobileLarge){}
-@media (min-width:$mobileSmall){}

@@ -26,26 +26,6 @@
   margin: 0px auto;
 }
 
-/*
-@media (max-width: $pc) {
-    [class*="__container"] {
-        max-width: rem(970);
-    }
-}
-
-@media (max-width: $tablet) {
-    [class*="__container"] {
-        max-width: rem(750);
-    }
-}
-
-@media (max-width: $mobileLarge) {
-    [class*="__container"] {
-        max-width: none;
-    }
-}
-*/
-/* ОБНУЛЕНИЕ СТИЛЕЙ */
 *,
 *::before,
 *::after {

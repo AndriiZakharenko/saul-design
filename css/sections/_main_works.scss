@@ -1,13 +1,7 @@
-//========================= MAIN_WORKS =========================//
-
 .works {
     padding-top: rem(145);
     padding-bottom: rem(145);
     background: url("/img/main/works/cover/01.svg") 0 0 repeat;
-
-    // .works__container
-    &__container {
-    }
 
     // .works__title
     &__title {
@@ -16,22 +10,14 @@
         }
     }
 
-    // .works__items
-    &__items {
-    }
 }
 
 .items-works {
-    // .items-works__navigation
     &__navigation {
         display: flex;
         flex-wrap: wrap;
         gap: rem(16);
         margin-bottom: rem(48);
-    }
-
-    // .items-works__type
-    &__type {
     }
 
     // .items-works__body
@@ -41,14 +27,12 @@
         gap: rem(45);
     }
 
-    // .items-works__item
     &__item {
         background-color: $grey4;
         backdrop-filter: blur(rem(2));
         border-radius: rem(16);
     }
 
-    // .items-works__image
     &__image {
         position: relative;
         padding-bottom: 59.62%;
@@ -64,9 +48,6 @@
     }
 }
 
-//========================= MAIN_WORKS (BREAKPOINTS) =========================//
-
-// MAX
 @media (max-width: $pc) {
     .works {
         padding-top: rem(70);
@@ -90,16 +71,4 @@
     .items-works__body{
         gap: rem(15);
     }
-}
-@media (max-width: $mobileSmall) {
-}
-
-// MIN
-@media (min-width: $pc) {
-}
-@media (min-width: $tablet) {
-}
-@media (min-width: $mobileLarge) {
-}
-@media (min-width: $mobileSmall) {
 }
