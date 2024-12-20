@@ -1,6 +1,3 @@
-//========================= FONTS =========================//
-
-// COLORS (PROJECT)
 $black1: rgba(34, 40, 49, 1);
 $black2: rgba(34, 40, 49, 0.8);
 $green0: rgba(0, 173, 181, 1);
@@ -13,7 +10,6 @@ $white1: rgba(238, 238, 238, 0.75);
 $white2: rgba(238, 238, 238, 0.1);
 $white3: rgba(238, 238, 238, 0.5);
 
-// WEIGHTS
 $Thin: 100;
 $ExtraLight: 200;
 $Light: 300;
@@ -24,11 +20,8 @@ $Bold: 700;
 $ExtraBold: 800;
 $Black: 900;
 
-// STYLE
 $poppins: "Poppins", sans-serif;
 $oswald: "Oswald", sans-serif;
-
-//========================= CONTAINER =========================//
 
 [class*="__container"] {
     max-width: rem(1280);

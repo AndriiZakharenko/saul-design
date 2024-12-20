@@ -1,28 +1,5 @@
-//========================= BREAKPOINTS =========================//
-$pc: em(1280); // PC
-$tablet: em(991.98); // Tablet
-$mobileLarge: em(767.98); // Mobile Large
-$mobileSmall: em(479.98); // Mobile Small
+$pc: em(1280);
+$tablet: em(991.98);
+$mobileLarge: em(767.98);
+$mobileSmall: em(479.98);
 $mobileMini: em(320);
-
-//========================= CONTAINER =========================//
-
-/*
-@media (max-width: $pc) {
-    [class*="__container"] {
-        max-width: rem(970);
-    }
-}
-
-@media (max-width: $tablet) {
-    [class*="__container"] {
-        max-width: rem(750);
-    }
-}
-
-@media (max-width: $mobileLarge) {
-    [class*="__container"] {
-        max-width: none;
-    }
-}
-*/
