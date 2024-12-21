@@ -5,5 +5,5 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     assetsInclude: ['**/*.woff', '**/*.woff2'],
-  },
+  }
 });
