@@ -17,7 +17,7 @@
 - ESlint
 - Prettier
 
-## Demo Links
+### Demo Links
 
 - [Demo](https://AndriiZakharenko.github.io/saul-design/)
 - [Figma](https://www.figma.com/community/file/1175755450846438274)
